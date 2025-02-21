@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>超連結範例</title>
+    <style>
+        body { margin: 20px 50px; }
+    </style>
+</head>
+<body>
+    <h1>歡迎來到我的網站</h1>
+    <p>請點擊以下連結前往：</p>
+    <a href="https://github.com/how101081/_wp/blob/patch-2/my/personal.html" target="_blank">前往我的個人網頁</a>
+    <img src="../../img/Icon-pictures.png"/>
+</body>
+</html>
