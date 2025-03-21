@@ -17,5 +17,5 @@ class Dog extends Animal {
 }
 }
 
-const dog = new Dog("Buddy");
+const dog = new Dog("楊丞皓");
 console.log(dog.speak());
