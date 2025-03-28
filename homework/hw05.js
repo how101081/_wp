@@ -14,6 +14,7 @@ app.use((ctx) => {
 <li><a href="/name">姓名</a></li>
 <li><a href="/age">年齡</a></li>
 <li><a href="/gender">性別</a></li>
+<li><a href="/gender">學號</a></li>
 </ol>
 </body>
 </html>
@@ -24,7 +25,8 @@ app.use((ctx) => {
     ctx.response.body = '18'
   }else if (pathname == '/gender') {
     ctx.response.body = '男'
-    
+  }else if (pathname == '/學號') {
+    ctx.response.body = '111310506'
   }
   // ctx.response.body = 'Not Found!'
 });
