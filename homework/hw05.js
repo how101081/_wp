@@ -22,7 +22,7 @@ app.use((ctx) => {
     ctx.response.body = '楊丞皓'
   } else if (pathname == '/age') {
     ctx.response.body = '18'
-    else if (pathname == '/gender') {
+  }else if (pathname == '/gender') {
     ctx.response.body = '男'
     
   }
